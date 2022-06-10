@@ -24,7 +24,7 @@ namespace runexebat
 
 
             List<string >  a = getfiles();
-            string ini = a[0].ToString() + "\\" + "configpyc.ini";
+            string ini = a[0].ToString() + "\\" + "run_config.ini";
             IniFile inif = new IniFile(ini);
             string keyname = a[1].ToString();
             /// 修改处理exe  
